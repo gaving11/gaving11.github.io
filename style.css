@@ -1,27 +1,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+/* Main Website */
+
 body {
     margin: 0;
-    background-color: #101322;
+    background-color: #0b0b13;
     color: white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
+/* Header */
+
 header {
-    background: linear-gradient(135deg, #5141c8, #171a35);
-    padding: 70px 20px;
+    background: linear-gradient(135deg, #20183b, #0b0b13);
+    text-align: left;
+    padding: 25px 40px;
 }
 
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    color: #a99cff;
+header h1 {
+    margin: 0;
     font-size: 28px;
 }
+
+header p {
+    margin-top: 10px;
+    color: #c7bfd8;
+}
+
+/* Main Content */
 
 main {
     max-width: 1100px;
@@ -36,6 +44,13 @@ section p {
     line-height: 1.8;
 }
 
+h2 {
+    color: #a78bfa;
+    font-size: 28px;
+}
+
+/* Interest Cards */
+
 .gallery {
     display: flex;
     justify-content: center;
@@ -44,27 +59,36 @@ section p {
 }
 
 .card {
-    background-color: #ff009d;
+    background-color: #241d36;
     padding: 15px;
     border-radius: 15px;
-    transition: transform 0.3s;
+    border: 1px solid #383344;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(167, 139, 250, 0.35);
 }
-
 
 .card img {
     width: 250px;
     height: 180px;
-    object-fit: contain;
-    background-color: #730aeb;
+    object-fit: cover;
+    object-position: center;
     border-radius: 10px;
 }
 
+.card h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Footer */
 
 footer {
-    background-color: #171a35;
+    background-color: #171326;
     padding: 20px;
+    margin-top: 40px;
 }
