@@ -44,7 +44,7 @@ section p {
 }
 
 .card {
-    background-color: #222640;
+    background-color: #ff009d;
     padding: 15px;
     border-radius: 15px;
     transition: transform 0.3s;
@@ -59,7 +59,7 @@ section p {
     width: 250px;
     height: 180px;
     object-fit: contain;
-    background-color: #171a35;
+    background-color: #730aeb;
     border-radius: 10px;
 }
 
